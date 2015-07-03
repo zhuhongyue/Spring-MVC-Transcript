@@ -16,6 +16,7 @@
   *run configurations下选择Maven Build
   
   *run configurations->Main下设置参数：
+          
           *Goals:tomcat:run
           
           *Base directory:${workspace_loc:/MVCtest3}
@@ -31,12 +32,19 @@ This is considered to be used as template project in STS 3+. Please look at [Get
 
 
 ##environment and paraments
+ 
   *eclipse 
-  *run configurations->Maven Build
+ 
+ *run configurations->Maven Build
+ 
   *run configurations->Main：
+         
           *Goals:tomcat:run
+        
           *Base directory:${workspace_loc:/MVCtest3}
+         
           *click run
+ 
   *Running war on： http://localhost:8080/mvc-demoo
   
   

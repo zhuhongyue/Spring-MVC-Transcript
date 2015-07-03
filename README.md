@@ -21,7 +21,7 @@
           
           Base directory:${workspace_loc:/MVCtest3}
           
-  * Running war on： http://localhost:8080/mvc-demoo
+  * Running war on： http://localhost:8080/mvc-demo
   
   
 ## What is this?
@@ -43,7 +43,7 @@ This is considered to be used as template project in STS 3+. Please look at [Get
         
           Base directory:${workspace_loc:/MVCtest3}
  
-* click run and check Running war on： http://localhost:8080/mvc-demoo
+* click run and check Running war on： http://localhost:8080/mvc-demo
   
   
 ## Technology components

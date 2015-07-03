@@ -17,9 +17,9 @@
   
   * run configurations->Main下设置参数：
           
-          *Goals:tomcat:run
+          Goals:tomcat:run
           
-          *Base directory:${workspace_loc:/MVCtest3}
+          Base directory:${workspace_loc:/MVCtest3}
           
   * Running war on： http://localhost:8080/mvc-demoo
   

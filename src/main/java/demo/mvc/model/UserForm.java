@@ -63,13 +63,11 @@ public class UserForm implements Serializable {
 	@NotNull(groups = { UserUpdateGroup.class, UserCreateGroup.class })
 	public Integer birth;
 
-	@Null(groups = { UserDeleteGroup.class })
-	@NotNull(groups = { UserUpdateGroup.class, UserCreateGroup.class })
+	@Null(groups = { UserDeleteGroup.class ,UserUpdateGroup.class, UserCreateGroup.class })
 	@Size(min = 0, max = 30)
 	private String password;
 
-	@Null(groups = { UserDeleteGroup.class })
-	@NotNull(groups = { UserUpdateGroup.class, UserCreateGroup.class })
+	@Null(groups = { UserDeleteGroup.class , UserUpdateGroup.class, UserCreateGroup.class })
 	@Size(min = 0, max = 30)
 	private String confirmPassword;
 
@@ -121,7 +119,8 @@ public class UserForm implements Serializable {
 
 	public String getPassword() {
 		System.out.println("USEFORM:getpass!?\n");
-		return password;
+		if(password != "/0")return password;
+		else return " ";
 	}
 
 	public void setPassword(String password) {

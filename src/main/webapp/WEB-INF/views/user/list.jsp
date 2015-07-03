@@ -13,7 +13,7 @@ ${request}
 			method="get" modelAttribute="userSearchForm"
 			class="form-inline my-inline">
 			<form:input path="name" class="form-control" />
-			<input type="submit" value="刷新统计结果" class="btn btn-default" />
+			<input type="submit" value="计算统计结果" class="btn btn-default" />
 		</form:form>
 	</div>
 	<table class="table table-striped table-bordered table-condensed">

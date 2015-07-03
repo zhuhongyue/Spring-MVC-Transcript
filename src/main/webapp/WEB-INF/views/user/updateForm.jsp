@@ -32,28 +32,14 @@
 					<form:errors path="birth" cssClass="text-danger" />
 				</div>
 			</div>
-			<div class="form-group">
-				<form:label path="password" class="col col-sm-2 control-label">设置密码</form:label>
-				<div class="col col-sm-10">
-					<form:password path="password" class="form-control" />
-					<form:errors path="password" cssClass="text-danger" />
-				</div>
-			</div>
-			<div class="form-group">
-				<form:label path="confirmPassword"
-					class="col col-sm-2 control-label">设置密码（确认）</form:label>
-				<div class="col col-sm-10">
-					<form:password path="confirmPassword" class="form-control" />
-					<form:errors path="confirmPassword" cssClass="text-danger" />
-				</div>
-			</div>
+			
 			<div class="form-group">
 				<div class="col col-sm-10 col-sm-offset-2">
 					<form:hidden path="version" />
 					<form:errors path="version" cssClass="text-danger" />
 					<input type="submit" class="btn btn-primary" name="confirm"
-						value="Confirm" /> <input type="submit" class="btn btn-default"
-						name="redirectToList" value="Back to List" />
+						value="确认" /> <input type="submit" class="btn btn-default"
+						name="redirectToList" value="返回" />
 				</div>
 			</div>
 		</fieldset>

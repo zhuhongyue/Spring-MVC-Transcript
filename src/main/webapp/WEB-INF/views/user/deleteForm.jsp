@@ -15,25 +15,17 @@
 			<div class="form-group">
 				<form:label path="birth" class="col col-sm-2 control-label">成绩</form:label>
 				<div class="col col-sm-10">
-					< ${userForm.birth} />
+					 ${userForm.birth} 
 				</div>
 			</div>
-			<div class="form-group">
-				<form:label path="password" class="col col-sm-2 control-label">设置密码</form:label>
-				<div class="col col-sm-10">******</div>
-			</div>
-			<div class="form-group">
-				<form:label path="confirmPassword"
-					class="col col-sm-2 control-label">U设置密码（确认）</form:label>
-				<div class="col col-sm-10">******</div>
-			</div>
+			
 			<div class="form-group">
 				<div class="col col-sm-10 col-sm-offset-2">
 					<form:hidden path="id" value="${f:h(user.id)}" />
 					<form:hidden path="version" value="${f:h(user.version)}" />
 					<input type="submit" class="btn btn-danger" name="delete"
-						value="Delete" /> <input type="submit" class="btn btn-default"
-						name="redirectToList" value="Back to List" />
+						value="删除" /> <input type="submit" class="btn btn-default"
+						name="redirectToList" value="返回" />
 				</div>
 			</div>
 		</fieldset>

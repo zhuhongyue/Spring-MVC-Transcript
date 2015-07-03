@@ -4,7 +4,7 @@
 		<fieldset>
 			<legend>New User</legend>
 			<div class="form-group">
-				<form:label path="name" class="col col-sm-2 control-label">User Name</form:label>
+				<form:label path="name" class="col col-sm-2 control-label">姓名</form:label>
 				<div class="col col-sm-10">
 					${f:h(userForm.name)}
 					<form:hidden path="name" />
@@ -12,7 +12,7 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<form:label path="email" class="col col-sm-2 control-label">E-mail</form:label>
+				<form:label path="email" class="col col-sm-2 control-label">学号</form:label>
 				<div class="col col-sm-10">
 					${userForm.email}
 					<form:hidden path="email" />
@@ -20,35 +20,19 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<form:label path="birth" class="col col-sm-2 control-label">User Birth</form:label>
+				<form:label path="birth" class="col col-sm-2 control-label">成绩</form:label>
 				<div class="col col-sm-10">
-					<${userForm.birth}/>
+					${userForm.birth}
 					<form:hidden path="birth" />
 					<form:errors path="birth" cssClass="text-danger" />
 				</div>
 			</div>
-			<div class="form-group">
-				<form:label path="password" class="col col-sm-2 control-label">User Password</form:label>
-				<div class="col col-sm-10">
-					******
-					<form:hidden path="password" />
-					<form:errors path="password" cssClass="text-danger" />
-				</div>
-			</div>
-			<div class="form-group">
-				<form:label path="confirmPassword"
-					class="col col-sm-2 control-label">User Password (confirm)</form:label>
-				<div class="col col-sm-10">
-					******
-					<form:hidden path="confirmPassword" />
-					<form:errors path="confirmPassword" cssClass="text-danger" />
-				</div>
-			</div>
+			
 			<div class="form-group">
 				<div class="col col-sm-10 col-sm-offset-2">
 					<input type="submit" class="btn btn-primary" name="create"
-						value="Create" /> <input type="submit" class="btn btn-default"
-						name="redo" value="Back to Form" />
+						value="创建" /> <input type="submit" class="btn btn-default"
+						name="redo" value="返回" />
 				</div>
 			</div>
 		</fieldset>

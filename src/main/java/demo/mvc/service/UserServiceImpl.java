@@ -31,8 +31,9 @@ public class UserServiceImpl implements UserService {
     public void save(User user, String rawPassword) {
 
 		System.out.println("save!?\n");
-        String password = passwordEncoder.encode(rawPassword);
-        user.setPassword(password);
+        //String password = passwordEncoder.encode(rawPassword);
+        //if(!password.isEmpty())
+        user.setPassword("o");
 
         Date now = new DateTime().toDate();
         if (user.getCreatedAt() == null) {

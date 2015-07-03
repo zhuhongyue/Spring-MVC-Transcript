@@ -10,11 +10,16 @@
   4，在修改，创建时需要输入确认密码，此密码无关紧要属于我给予的源程序上的遗留，不宜删除故保留，作为一种标记。
 
 ##运行环境和参数设置
+
   *eclipse 
+  
   *run configurations下选择Maven Build
+  
   *run configurations->Main下设置参数：
           *Goals:tomcat:run
+          
           *Base directory:${workspace_loc:/MVCtest3}
+          
   *Running war on： http://localhost:8080/mvc-demoo
   
   

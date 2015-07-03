@@ -1,9 +1,51 @@
+### 中文readme
+  此Spring MVC项目实现了
+  
+  1	可创建、删除、更新和显示成绩项。
+  
+  2	每个成绩项包括学号、姓名、成绩。
+  
+  3	提供对所录入成绩项的平均值和标准方差的自动计算和现实，注意每回数据改动后需要按下更新按钮。
+  
+  4 此为汉化版本
+
+##运行环境和参数设置
+
+  * eclipse 
+  
+  * run configurations下选择Maven Build
+  
+  * run configurations->Main下设置参数：
+          
+          Goals:tomcat:run
+          
+          Base directory:${workspace_loc:/MVCtest3}
+          
+  * Running war on： http://localhost:8080/mvc-demo
+  
+  
 ## What is this?
 
 This is a web application template project using spring.
-
+I implemented it on 2015,7，2. which is up to my graduation.
 This is considered to be used as template project in STS 3+. Please look at [GettingStarted][1].
 
+
+##environment and paraments
+ 
+ eclipse 
+ 
+* run configurations->Maven Build
+ 
+* run configurations->Main：
+         
+          Goals:tomcat:run
+        
+          Base directory:${workspace_loc:/MVCtest3}
+ 
+* click run and check Running war on： http://localhost:8080/mvc-demo
+  
+  
 ## Technology components
 This template project uses
 
@@ -19,8 +61,3 @@ This template project uses
 * jQuery
 * Bootstrap
 
-![screen shot][2]
-
-
-  [1]: https://github.com/making/spring-webapp-template/wiki/GettingStarted
-  [2]: https://raw.github.com/making/spring-webapp-template/master/wiki/images/screen08.png
